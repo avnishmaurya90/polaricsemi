@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700&display=swap');
+
+body{ font-family: 'Poppins', sans-serif; font-size: 14px; color: #656565;  }
+h1,h2,h3,h4,h5,h6{ font-weight: 500;}
+h3{ font-size: 32px;}
+h4{ font-size: 20px;}
+ul,li{ list-style-type: none; margin: 0; padding: 0;}
+a{ color: #fff; transition: 0.3s ease; text-decoration: none; }
+a:hover{ opacity: 0.9; color: #fff; text-decoration: none;}
+p{ font-weight: 300;}
+.video-imgh img,.polachip-img img {width: 100%; }
+
+
+
+/************* INNER PAGES STYLE ******************/
+.inn-brecemb-pro{ background: #ff6b71; padding: 25px 0; color: #fff;}
+.inn-brecemb-pro ul {display: flex; }
+.inn-brecemb-pro ul li {margin-right: 40px; position: relative; font-size: 18px; }
+.inn-brecemb-pro ul li::after {position: absolute; content: "\f105"; font-family: fontawesome; right: -25px; }
+.inn-brecemb-pro ul li:last-child::after{ display: none;}
+#inn-content {padding: 60px 0; }
+.innhead-conpro h3 {margin-bottom: 15px; padding-bottom: 25px; position: relative; }
+.innhead-conpro h3::after {position: absolute; content: ""; width: 69px; height: 7px; background: #ff6b71; bottom: 0; left: 0; }
+.polaric-probo {text-align: center; margin-top: 30px; }
+.icon-hold {width: 107px; height: 107px; background: #ff6b71; border-radius: 50%; text-align: center; line-height: 107px; font-size: 40px; color: #fff; margin: 0 auto 20px; }
+.more-btn a {background: #ff6b71; padding: 8px 15px; display: inline-block; border-radius: 3px; }
+
+.pro-ourteam,.pro-toolsfeat,.pro-productfeat {padding: 60px 0; background: #f8f8f8; }
+.boxcontent {padding: 15px; background: #fff; }
+.pro-ourteam .owl-nav button.owl-next {position: absolute; right: -40px; top: 0; bottom: 0; margin: auto; outline: 0; }
+.pro-ourteam .owl-nav button.owl-prev {position: absolute; left: -40px; top: 0; bottom: 0; margin: auto; outline: 0;}
+.pro-ourteam .owl-nav span {font-size: 42px; }
+.pro-ourteam .owl-nav span {font-size: 40px; border: 2px rgba(0,0,0,0.2) solid; padding: 0px 10px; height: 20px; }
+.p-polaric-slide .owl-nav button {border: 0px #ff6b71 solid !important; margin: 3px; width: 34px; background: #fff !important; color: #ff6b71 !important; font-size: 32px !important; display: inline-block; box-shadow: 0 0 10px rgba(0,0,0,0.2); }
+.p-kitspro ul li a{ color: #ff6b71; }
+.p-kitspro li {margin: 10px 0; }
+.p-kitspro h3 {font-size: 30px; }
+.p-featured-r h3 {background: #ff6b71; font-size: 26px; font-weight: 300; padding: 15px; margin-bottom: 0; color: #fff; border-radius: 3px 3px 0 0; }
+.featpoaric-pro {padding: 5px; background: #fff; }
+.p-featured-r .owl-dots {display: none; }
+.p-featured-r .owl-nav {position: absolute; bottom: -65px; }
+.pro-toolsfeat {padding-bottom: 125px; }
+.teambox-pro {box-shadow: 0 0 10px 0 rgba(0,0,0,0.1); }
+.p-featured-r .owl-item {margin-top: 15px; margin-bottom: 15px; }
+.tool-box-lnk {box-shadow: 0 0 10px 0 rgba(0,0,0,0.1); color: #474646; margin: 10px 0; padding: 15px; display: flex; justify-content: space-between; flex-wrap: wrap; display: -webkit-flex; -webkit-justify-content: space-between; -webkit-flex-wrap: wrap; }
+.tool-box-lnk h4 {font-size: 14px; margin-bottom: 0; }
+.tool-box-lnk i {color: #ff6b71; font-size: 24px; line-height: 14px; }
+.polaric-table-pro table a {color: #ff6b71; }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.inn-brecemb-pro ul li{ font-size: 15px;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+	
+}
+
+@media only screen and (max-width: 767px){
+	h3,.p-kitspro h3 {font-size: 26px; }
+	.video-imgh img, .polachip-img img {margin-bottom: 15px; }
+	.pro-ourteam, .pro-toolsfeat, .pro-productfeat,#inn-content{ padding: 30px 0;}
+	.p-featured-r .owl-nav {position: relative; bottom: 0; }
+	.inn-brecemb-pro ul li{ font-size: 14px;}
+	
+}
+
+
+
